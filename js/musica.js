@@ -1,5 +1,5 @@
 const load = async () => {
-	await fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=eminem", {
+	await fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=rock", {
 		"method": "GET",
 		"headers": {
 			"x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
@@ -7,7 +7,7 @@ const load = async () => {
 		}
 	})
 	.then(response => {
-		console.log(response);
+		console.log(response)
 		return response.json();
 	}).then(response => {
 		console.log(response)

@@ -1,0 +1,18 @@
+html{
+    background-color: rgb(83, 83, 83);
+}
+
+body{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    margin:auto;
+    background-color: rgb(34, 34, 34);
+}
+
+header h1{
+    margin: 0;
+}
+
+
+
