@@ -1,18 +1,55 @@
 html{
-    background-color: rgb(83, 83, 83);
+    background-color: #12FFD4;
 }
 
 body{
     width: 70%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     margin:auto;
-    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 header h1{
     margin: 0;
 }
 
+ul{
+    list-style-type: none;
+}
 
+.header{
+    font-family: 'Fredoka One', cursive;
+}
 
+.main{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+.genres ul li a{
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+
+}
+
+.tracks ul li a{
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    grid-template-rows: 1;
+    gap: 1px 1px;
+    grid-template-areas: "genres tracks";
+  }
+  
+  .genres { grid-area: genres; }
+  
+  .tracks { grid-area: tracks; }
